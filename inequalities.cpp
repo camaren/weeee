@@ -1,0 +1,31 @@
+//
+// Created by Camaren on 4/23/17.
+//
+
+#include "Inequalities.h"
+
+double Max(double x, double y)
+{
+    if (x > y)
+        return x;
+    return y;
+}
+
+double Min(double x, double y)
+{
+    if (x < y)
+        return x;
+    return y;
+}
+
+double Max(double x, double y, double z)
+{
+    return Max(Max(x,y), z);
+
+}
+
+double Min(double x, double y, double z)
+{
+    return Min(Min(x,y), z);
+}
+

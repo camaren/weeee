@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/camaren/CLionProjects/weeee/Inequalities.h
+
+/Users/camaren/CLionProjects/weeee/inequalities.cpp
+Inequalities.h
+/Users/camaren/CLionProjects/weeee/Inequalities.h
+
+/Users/camaren/CLionProjects/weeee/testinequalities.cpp
+iostream
+-
+Inequalities.h
+/Users/camaren/CLionProjects/weeee/Inequalities.h
+
